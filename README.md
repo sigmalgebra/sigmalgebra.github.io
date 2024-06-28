@@ -39,7 +39,6 @@ To get the most out of this course, here are some recommended materials:
 If you have any questions or need further information, feel free to reach out:
 
 - **Email**: [neal.dipolito@gmail.com](mailto:neal.dipolito@gmail.com)
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
 
 ## Acknowledgments
 
