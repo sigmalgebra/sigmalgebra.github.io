@@ -11,11 +11,9 @@ I'm interested in opportunities related to quantitative finance, data science, a
 ## Professional Profiles
 
 - **GitHub**: [github.com/sigmalgebra](https://github.com/sigmalgebra)
-- **LinkedIn**: [Your LinkedIn Profile] <!-- Add your LinkedIn URL here -->
+- **LinkedIn**: [NelloDiPolito] (https://www.linkedin.com/in/nellodipolito/)
 
-## Email
 
-<!-- Add your professional email if you're comfortable sharing it publicly -->
 You can reach me via GitHub or LinkedIn messaging.
 
 ## Research Interests
