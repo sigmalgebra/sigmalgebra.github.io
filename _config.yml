@@ -1,5 +1,5 @@
-title: "Sigmalgebra"
-description: "Financial Engineering & Quantitative Analysis Portfolio"
+title: "Sigmalgebra Portfolio"
+description: "Finance Engineering & Data Science Portfolio"
 author: "Sigmalgebra"
 url: "https://sigmalgebra.github.io"
 
@@ -11,16 +11,6 @@ permalink: /blog/:year/:month/:day/:title/
 social_links:
   github: sigmalgebra
   linkedin: # add your LinkedIn username here
-
-# Custom settings for professional appearance
-header_pages:
-  - index.md
-  - projects.md
-  - about.md
-  - contact.md
-
-# Google Fonts integration (will be referenced in head.html)
-google_fonts: "Montserrat:400,500,600,700|Open+Sans:400,400i,600,700"
 
 # Build settings
 markdown: kramdown

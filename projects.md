@@ -4,107 +4,43 @@ title: "Projects"
 permalink: /projects/
 ---
 
-<div class="home-intro">
-  <h1>Projects Portfolio</h1>
-  <p>A selection of my work in quantitative finance, risk modeling, and data science. Each project demonstrates my approach to solving complex financial challenges through computational methods.</p>
-</div>
+# Projects
 
-<section>
-  <h2>Financial Engineering</h2>
-  
-  <div class="project-item">
-    <h3>Advanced Portfolio Optimization Model</h3>
-    <span class="technologies">Python, NumPy, SciPy, Pandas, Matplotlib</span>
-    <p>Developed a comprehensive portfolio optimization framework implementing multiple methodologies:</p>
-    <ul>
-      <li>Modern Portfolio Theory with efficient frontier analysis</li>
-      <li>Risk parity and minimum variance strategies</li>
-      <li>Custom asset allocation constraints and risk budgeting</li>
-      <li>Advanced optimization algorithms for non-convex problems</li>
-    </ul>
-    <p>The model provides superior risk-adjusted returns compared to traditional allocation strategies, with extensive visualizations for performance analysis.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-  
-  <div class="project-item">
-    <h3>Multi-Method Options Pricing Engine</h3>
-    <span class="technologies">Python, NumPy, Pandas, Plotly</span>
-    <p>Created a sophisticated options pricing system featuring:</p>
-    <ul>
-      <li>Black-Scholes, Binomial, and Monte Carlo pricing methods</li>
-      <li>Comprehensive Greeks calculation (Delta, Gamma, Theta, Vega, Rho)</li>
-      <li>Implied volatility surface modeling</li>
-      <li>Interactive visualization of option strategies and risk profiles</li>
-    </ul>
-    <p>The tool enables accurate pricing for complex option structures and provides critical insights for derivatives trading and hedging strategies.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-  
-  <div class="project-item">
-    <h3>Financial Risk Assessment Framework</h3>
-    <span class="technologies">R, Python, SQL</span>
-    <p>Engineered a comprehensive risk management system that:</p>
-    <ul>
-      <li>Calculates Value-at-Risk (VaR) using historical, parametric, and Monte Carlo simulations</li>
-      <li>Implements Expected Shortfall and Conditional VaR metrics</li>
-      <li>Conducts stress testing and scenario analysis for extreme market conditions</li>
-      <li>Provides automated risk reports with key performance indicators</li>
-    </ul>
-    <p>The framework has been used to evaluate portfolio vulnerabilities and ensure compliance with risk management policies.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-</section>
+Below are some of my key projects in finance engineering and data science. Each demonstrates different aspects of my technical skills and domain knowledge.
 
-<section>
-  <h2>Data Science & Machine Learning</h2>
-  
-  <div class="project-item">
-    <h3>Predictive Market Analysis System</h3>
-    <span class="technologies">Python, TensorFlow, Scikit-learn, NLTK, Pandas</span>
-    <p>Built an advanced market prediction platform that combines:</p>
-    <ul>
-      <li>LSTM neural networks for time series forecasting</li>
-      <li>Random Forest and XGBoost ensembles for classification</li>
-      <li>Natural language processing for financial news sentiment analysis</li>
-      <li>Feature engineering of technical indicators and market signals</li>
-    </ul>
-    <p>The system achieved 68% directional accuracy in predicting market movements over a 3-month out-of-sample testing period.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-  
-  <div class="project-item">
-    <h3>Credit Risk Modeling & Scoring System</h3>
-    <span class="technologies">Python, Scikit-learn, Pandas, XGBoost</span>
-    <p>Developed a robust credit assessment platform featuring:</p>
-    <ul>
-      <li>Logistic regression and ensemble methods for default prediction</li>
-      <li>Survival analysis for time-to-default estimation</li>
-      <li>Feature importance analysis for key risk factors</li>
-      <li>Model explainability and compliance documentation</li>
-    </ul>
-    <p>The model provides granular risk segmentation with clear interpretability, making it suitable for regulatory requirements while maintaining high predictive power.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-  
-  <div class="project-item">
-    <h3>Macroeconomic Forecasting System</h3>
-    <span class="technologies">R, Python, Statsmodels</span>
-    <p>Created a comprehensive economic analysis toolkit with:</p>
-    <ul>
-      <li>ARIMA and VAR models for multivariate forecasting</li>
-      <li>Cointegration and causality testing between economic variables</li>
-      <li>Factor analysis to identify leading indicators</li>
-      <li>Interactive dashboards for economic monitoring</li>
-    </ul>
-    <p>The system provides timely signals for market regime changes and economic turning points, enabling proactive investment strategy adjustments.</p>
-    <a href="#" class="btn">View Details</a>
-  </div>
-</section>
+## Finance Projects
 
-<div style="text-align: center; margin: 50px 0 30px;">
-  <p><em>Additional project details, code examples, and documentation available upon request.</em></p>
-  <a href="/contact" class="btn btn-primary">Discuss Collaboration Opportunities</a>
-</div>
+### Portfolio Optimization Model
+A quantitative approach to optimizing investment portfolios using modern portfolio theory and alternative risk measures. Implemented efficient frontier analysis with constraints on asset allocation.
+
+**Technologies used:** Python, NumPy, SciPy, Pandas, Matplotlib
+
+### Options Pricing Calculator
+Developed a comprehensive options pricing tool implementing Black-Scholes, Binomial, and Monte Carlo methods with sensitivity analysis (Greeks).
+
+**Technologies used:** Python, NumPy, Pandas, Plotly
+
+### Financial Risk Assessment Framework
+Created a risk management system that quantifies market risk using Value-at-Risk (VaR) and Expected Shortfall with historical simulation and parametric methods.
+
+**Technologies used:** R, Python, SQL
+
+## Data Science Projects
+
+### Stock Market Prediction using Machine Learning
+Implemented and compared various ML algorithms (LSTM, Random Forest, XGBoost) to predict stock price movements using technical indicators and sentiment analysis.
+
+**Technologies used:** Python, TensorFlow, Scikit-learn, NLTK, Pandas
+
+### Credit Risk Modeling
+Developed a credit scoring model using logistic regression and ensemble methods to predict loan default probability based on historical lending data.
+
+**Technologies used:** Python, Scikit-learn, Pandas, XGBoost
+
+### Time Series Analysis of Economic Indicators
+Analyzed relationships between macroeconomic variables using ARIMA, VAR models and cointegration analysis to identify leading indicators for market trends.
+
+**Technologies used:** R, Python, Statsmodels
 
 ---
 

@@ -2,230 +2,88 @@
 
 // Custom styling for a professional finance/data science portfolio
 
-// Color scheme - updated for more professional finance look
-$primary-color: #1a2a3a;      // Darker blue for main elements
-$secondary-color: #0056b3;    // Strong blue for links and highlights
-$accent-color: #4caf50;       // Green accent for success/positive elements
-$background-color: #ffffff;   // Clean white background
-$text-color: #212529;         // Dark gray for better readability
-$light-gray: #f8f9fa;         // Light gray for sections
-$border-color: #e9ecef;       // Subtle border color
+// Color scheme
+$primary-color: #2c3e50;
+$secondary-color: #3498db;
+$accent-color: #e74c3c;
+$background-color: #f8f9fa;
+$text-color: #333;
 
 // Typography
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 1.8;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.7;
   color: $text-color;
   background-color: $background-color;
-  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: $primary-color;
-  font-weight: 700;
-  margin-top: 1.5em;
-  margin-bottom: 0.75em;
-}
-
-h1 { font-size: 2.4em; }
-h2 { font-size: 1.8em; border-bottom: 1px solid $border-color; padding-bottom: 0.3em; }
-h3 { font-size: 1.4em; color: $secondary-color; }
-
-p {
-  margin-bottom: 1.5em;
+  font-weight: 600;
 }
 
 a {
   color: $secondary-color;
-  transition: color 0.2s ease-in-out;
   &:hover {
     color: darken($secondary-color, 15%);
     text-decoration: none;
   }
 }
 
-// Layout - Row and Column system
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
-.column {
-  flex: 1;
-  padding-right: 15px;
-  padding-left: 15px;
-  min-width: 0; // Fix for text overflow
-  
-  @media screen and (max-width: 768px) {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
 // Header & Navigation
 .site-header {
   border-top: 5px solid $primary-color;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid lighten($primary-color, 50%);
   background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  padding: 15px 0;
   
   .site-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.8em;
+    font-weight: bold;
     color: $primary-color;
-    letter-spacing: 0.5px;
   }
   
-  .site-nav {
-    .page-link {
-      color: $primary-color;
-      font-weight: 600;
-      margin-left: 25px;
-      font-size: 1.05em;
-      transition: color 0.2s ease;
-
-      &:hover {
-        color: $secondary-color;
-      }
-      
-      &.active {
-        color: $secondary-color;
-        position: relative;
-        
-        &:after {
-          content: "";
-          position: absolute;
-          bottom: -5px;
-          left: 0;
-          width: 100%;
-          height: 2px;
-          background-color: $secondary-color;
-        }
-      }
-    }
+  .site-nav .page-link {
+    color: $primary-color;
+    font-weight: 500;
   }
 }
 
 // Footer
 .site-footer {
-  border-top: 1px solid $border-color;
-  background-color: $light-gray;
-  padding: 30px 0;
-  color: lighten($text-color, 20%);
-  
-  h2 {
-    font-size: 1.2em;
-    margin-bottom: 15px;
-  }
-  
-  .footer-col-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-  
-  .footer-col {
-    flex: 1;
-    padding: 0 15px;
-    margin-bottom: 20px;
-    
-    @media screen and (max-width: 768px) {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
-  
-  .social-media-list {
-    li {
-      display: inline-block;
-      margin: 0 10px 10px 0;
-      
-      a {
-        padding: 8px;
-        border: 1px solid $border-color;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.2s ease;
-        width: 36px;
-        height: 36px;
-        
-        &:hover {
-          background-color: $secondary-color;
-          border-color: $secondary-color;
-          color: white;
-        }
-      }
-    }
-  }
-  
-  .footer-bottom {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid darken($light-gray, 10%);
-    text-align: center;
-    font-size: 0.9em;
-  }
+  border-top: 1px solid lighten($primary-color, 50%);
+  background-color: white;
 }
 
 // Content
 .page-content {
-  padding: 50px 0;
+  padding: 30px 0;
   
   .wrapper {
-    max-width: 1000px;
+    max-width: 900px;
   }
 }
 
 // Projects
 .project-item {
-  margin-bottom: 40px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid $border-color;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
   
   h3 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    color: $secondary-color;
   }
   
   .technologies {
     font-size: 0.9em;
-    color: lighten($text-color, 20%);
-    margin-bottom: 15px;
-    display: inline-block;
-    background-color: $light-gray;
-    padding: 4px 10px;
-    border-radius: 4px;
-  }
-  
-  &:last-child {
-    border-bottom: none;
+    font-style: italic;
   }
 }
 
 // Home page
 .home-intro {
-  margin-bottom: 60px;
-  background-color: $light-gray;
-  padding: 40px;
-  border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
   
   h1 {
-    margin-top: 0;
     margin-bottom: 20px;
     font-size: 2.5em;
   }
@@ -234,134 +92,31 @@ a {
 // Buttons
 .btn {
   display: inline-block;
-  padding: 10px 22px;
+  padding: 8px 20px;
   margin: 5px 0;
   background-color: $secondary-color;
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  font-weight: 600;
-  transition: all 0.2s ease;
   
   &:hover {
     background-color: darken($secondary-color, 10%);
     color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  &.btn-primary {
-    background-color: $primary-color;
-    
-    &:hover {
-      background-color: darken($primary-color, 10%);
-    }
-  }
-  
-  &.btn-accent {
-    background-color: $accent-color;
-    
-    &:hover {
-      background-color: darken($accent-color, 10%);
-    }
   }
 }
 
 // Skills section
-.skills-section {
-  margin: 40px 0;
-  background-color: $light-gray;
-  padding: 30px;
-  border-radius: 6px;
-  
-  h2 {
-    margin-top: 0;
-  }
-}
-
 .skills-list {
   columns: 2;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  
-  li {
-    margin-bottom: 8px;
-    position: relative;
-    padding-left: 20px;
-    
-    &:before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: $secondary-color;
-    }
-  }
   
   @media screen and (max-width: 600px) {
     columns: 1;
   }
 }
 
-// Education and experience
-.timeline-item {
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 30px;
-  
-  &:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: $secondary-color;
-  }
-  
-  h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
-  
-  .timeline-date {
-    font-style: italic;
-    color: lighten($text-color, 20%);
-    margin-bottom: 10px;
-    font-size: 0.9em;
-  }
-}
-
-// Contact page
-.contact-method {
-  margin-bottom: 30px;
-  
-  h3 {
-    margin-bottom: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    
-    li {
-      margin-bottom: 8px;
-    }
-  }
-}
-
 // Add responsive adjustments
 @media screen and (max-width: 800px) {
   .page-content .wrapper {
-    padding: 0 20px;
+    padding: 0 15px;
   }
-  
-  .home-intro {
-    padding: 25px;
-  }
-  
-  h1 { font-size: 2em; }
-  h2 { font-size: 1.5em; }
-  h3 { font-size: 1.2em; }
 } 
