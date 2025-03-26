@@ -1,1 +1,29 @@
+title: "Sigmalgebra Portfolio"
+description: "Finance Engineering & Data Science Portfolio"
+author: "Sigmalgebra"
+url: "https://sigmalgebra.github.io"
 
+# Theme settings
+theme: minima
+permalink: /blog/:year/:month/:day/:title/
+
+# Social media profiles
+social_links:
+  github: sigmalgebra
+  linkedin: # add your LinkedIn username here
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from being included in the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+  - CNAME

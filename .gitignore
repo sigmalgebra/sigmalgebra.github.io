@@ -1,0 +1,30 @@
+# Jekyll site files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Ruby environment normalization
+.bundle/
+vendor/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# VS Code
+.vscode/
+
+# Jekyll sitemap files
+sitemap.xml
+sitemap.xml.gz 
